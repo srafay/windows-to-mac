@@ -2,6 +2,8 @@
 
 My macOS setup for working with **Windows / PC-style keyboard shortcuts** — Karabiner-Elements key remaps plus VS Code (and Cursor) keybindings. Drop these in on a fresh Mac to get muscle-memory back instantly.
 
+> **New machine? Start with [SETUP.md](SETUP.md)** — a top-to-bottom walkthrough (Homebrew, Karabiner, editors, plus Rectangle + AltTab for window snapping and per-window Alt-Tab).
+
 ## Contents
 
 ```
