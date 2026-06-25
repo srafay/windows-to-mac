@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debug Current Lambda (dev profile)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                // "PYTHONPATH": "${workspaceFolder}",
+                // Add vscode folder to PYTHONPATH for local logging config
+                "PYTHONPATH": "${workspaceFolder}:${workspaceFolder}/.vscode",
+                "AWS_PROFILE": "dev-profile",
+                "AWS_DEFAULT_REGION": "ap-southeast-2",
+                "PYTHONUNBUFFERED": "1",
+            }
+        }
+    ]
+}

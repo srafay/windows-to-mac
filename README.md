@@ -13,6 +13,8 @@ karabiner/
 vscode/
   keybindings.json                            # custom keybindings (identical for VS Code & Cursor)
   settings.json                               # editor settings (some paths are project-specific)
+python/
+  .vscode/                                    # F5 debug config + auto colored logging (see python/README.md)
 ```
 
 ## Karabiner-Elements
